@@ -16,3 +16,6 @@ This string is a connection URI used to connect to a message broker that support
 - **5672** - This is the default port used by RabbitMQ for clients connecting using the AMQP protocol. It's important that this port is open and accessible on the machine running the RabbitMQ server.
 
 These components together form the URI needed to establish a connection to the AMQP server, allowing the application to send and receive messages.
+
+![gambar](https://github.com/tommyraspati/adpro-lab8-publisher/assets/89284213/daadb8de-5c8c-4a07-bd68-601646dab9d5)
+The graph above indicates that there were 10 messages in the queue at one point. This occurred because the subscriber's speed in consuming data from the queue was slower than the speed at which messages were incoming. As a result, messages remained in the queue until the subscriber consumed them.
